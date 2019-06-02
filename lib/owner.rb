@@ -55,6 +55,7 @@ class Owner
       pets.each do |pet|
         pet.mood = "nervous"
       end
+      # (also can do) pets.clear
     end
     @pets.each {|type, pets| pets.clear}
   end
